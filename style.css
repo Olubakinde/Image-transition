@@ -10,7 +10,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: grey;
+    background: rgb(73, 73, 73);
+    padding: 40px;
+}
+
+.container h3 {
+    color: white;
 }
 
 .img-box {
@@ -27,6 +32,7 @@
 .img-wrap {
     width: 20px;
     position: absolute;
+    border-radius: 35px;
     left: 0;
     top: 0;
     overflow: hidden;
@@ -48,4 +54,44 @@ span {
     top: 50%;
     margin-left: -20px;
     margin-top: -20px;
+}
+
+.next {
+    width: 7%; /* Adjusted width to fit both elements side by side */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+.next img {
+    border-radius: 50%;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.next img:hover{
+    background-color: rgb(177, 169, 169);
+}
+
+.img-box2 {
+    width: 60%;
+    margin: auto;
+    line-height: 0;
+    background-color: white;
+    border-radius: 35px;
+    background-image: url(img/background.png);
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrap2 {
+    width: 20px;
+    position: absolute;
+    border-radius: 35px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
 }
